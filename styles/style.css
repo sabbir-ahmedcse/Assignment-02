@@ -3,10 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F5F8FF;
 }
+
+
+
+
 
 /* sherd style */
 .contenair {
+
     max-width: 1060px;
     margin: 10px auto;
 }
@@ -21,8 +27,12 @@
 
 .drak-3 {}
 
-.display-flax{
+.display-flax {
     display: flex;
+}
+
+img {
+    width: 100%;
 }
 
 
@@ -36,12 +46,12 @@
 
 
 .header-right {
-    
+
     gap: 30px;
 }
 
 ul {
-    
+
     gap: 30px;
 }
 
@@ -53,6 +63,29 @@ li a {
     text-decoration: none;
 }
 
+/* banner style */
+
+.banner {
+    margin-top: 50px;
+    padding-top: 30px;
+    align-items: end;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-titile {
+   
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 89px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+
 
 
 
@@ -61,9 +94,12 @@ li a {
 /* small device responsive  */
 
 @media screen and (max-width:576px) {
-    .contenair-2{
-        margin: 0 10px;
+  
+
+    .banner{
+        flex-direction: column-reverse;
     }
+
 
     ul li {
         visibility: hidden;
