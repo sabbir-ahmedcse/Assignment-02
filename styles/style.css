@@ -1,6 +1,74 @@
-*{
+* {
     font-family: "Noto Serif", serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* sherd style */
+.contenair {
+    max-width: 1060px;
+    margin: 10px auto;
+}
+
+.drak-1 {
+    color: black;
+}
+
+.drak-2 {
+    color: #8987A1;
+}
+
+.drak-3 {}
+
+.display-flax{
+    display: flex;
+}
+
+
+/* header style */
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-right {
+    
+    gap: 30px;
+}
+
+ul {
+    
+    gap: 30px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* small device responsive  */
+
+@media screen and (max-width:576px) {
+    .contenair-2{
+        margin: 0 10px;
+    }
+
+    ul li {
+        visibility: hidden;
+    }
+
+
+
 }
