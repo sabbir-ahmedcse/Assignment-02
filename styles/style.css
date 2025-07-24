@@ -185,7 +185,7 @@ li a {
 .image-left-a {
     position: relative;
     text-align: center;
-    
+
 }
 
 .image-left-a-text {
@@ -195,12 +195,44 @@ li a {
     transform: translate(-50%, -50%);
     color: white;
     font-weight: bold;
-    
-     
+
+
 }
 
 
 
+/* Join the colorful Bunch style */
+
+
+.bg-iamge {
+
+    position: relative;
+    text-align: center;
+
+}
+
+.image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+.email{
+    margin-top: 10px;
+    padding: 15px 20px;
+    background-color: white;
+    width: 450px;
+
+
+}
+
+.btn {
+    padding: 15px 26px;
+}
 
 
 
@@ -244,15 +276,34 @@ li a {
         flex-direction: column;
     }
 
-   
+
 
     .image-contenair-left {
-    width: 100%;
+        width: 100%;
 
-}
-.image-contenair-right{
-    width: 100%;
-}
+    }
+
+    .image-contenair-right {
+        width: 100%;
+    }
+
+    .join-text {
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .email {
+
+        width: 190px;
+        padding: 5px 12px;
+    }
+
+    .btn {
+
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
 
 
 
