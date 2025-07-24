@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #F5F8FF;
+    /* background-color: #F5F8FF; */
 }
 
 
@@ -40,6 +40,14 @@ img {
     padding: 10px 69px;
     color: white;
     font-weight: bold;
+}
+
+.mt {
+    margin-top: 100px;
+}
+
+.mb {
+    margin-bottom: 20px;
 }
 
 
@@ -114,12 +122,12 @@ li a {
     text-align: center;
 }
 
-.card h2{
+.card h2 {
     font-weight: 500;
     margin-top: 10px;
 }
 
-.card p{
+.card p {
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -128,6 +136,74 @@ li a {
 .card img {
     border-radius: 10px 10px 0 0;
 }
+
+
+/* Flower & Plants Lover style */
+
+.flower-plants-contenair {
+    margin-top: 100px;
+
+}
+
+.flower-content img {
+    margin-left: -100px;
+    margin-top: -140px;
+
+}
+
+
+
+/* Latest  Deals style  */
+
+.latest-section {
+    margin-top: 100px;
+}
+
+.image-contenair {
+
+    gap: 16px;
+    display: flex;
+
+
+
+}
+
+.image-contenair-left {
+    width: 33%;
+
+}
+
+.image-contenair-right {
+    width: 66%;
+}
+
+.iteam-1 {
+    margin-bottom: 13px;
+
+}
+
+.image-left-a {
+    position: relative;
+    text-align: center;
+    
+}
+
+.image-left-a-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    
+     
+}
+
+
+
+
+
+
 
 
 
@@ -156,13 +232,27 @@ li a {
         visibility: hidden;
     }
 
-    .card-contenair{
+    .card-contenair {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .btn-primary{
-        padding: 10px 34px;
+    .btn-primary {
+        padding: 8px 34px;
     }
+
+    .image-contenair {
+        flex-direction: column;
+    }
+
+   
+
+    .image-contenair-left {
+    width: 100%;
+
+}
+.image-contenair-right{
+    width: 100%;
+}
 
 
 
