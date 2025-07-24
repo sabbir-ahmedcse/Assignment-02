@@ -50,6 +50,10 @@ img {
     margin-bottom: 20px;
 }
 
+.mb-2 {
+    margin-bottom: 15px;
+}
+
 
 /* header style */
 
@@ -221,7 +225,7 @@ li a {
 
 
 
-.email{
+.email {
     margin-top: 10px;
     padding: 15px 20px;
     background-color: white;
@@ -232,6 +236,23 @@ li a {
 
 .btn {
     padding: 15px 26px;
+}
+
+/* footer style */
+
+.main-footer {
+    padding: 50px 100px;
+}
+
+.logo {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+
+.add-logo img {
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -272,7 +293,8 @@ li a {
         padding: 8px 34px;
     }
 
-    .image-contenair {
+    .image-contenair,
+    .flower-plants-contenair {
         flex-direction: column;
     }
 
@@ -303,6 +325,16 @@ li a {
         padding: 5px 10px;
         font-size: 15px;
     }
+
+    .main-footer {
+        flex-direction: column;
+        padding: 15px 15px;
+    }
+
+    .nav-contentair {
+        flex-direction: column;
+    }
+
 
 
 
